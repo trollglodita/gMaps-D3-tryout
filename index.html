@@ -27,6 +27,7 @@
       var cityCircle;
 
       function initialize() {
+        var geocoder = new google.maps.Geocoder();
         var mapOptions = {
           center: new google.maps.LatLng(16.4706001, -33.6728973),
           zoom:3,
